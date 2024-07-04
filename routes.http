@@ -1,0 +1,27 @@
+POST http://localhost:3001/videos
+Content-Type: application/json
+
+{
+    "title": "sdfgs dfg sdfg",
+    "description": "Descrasf asdf f",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3001/videos
+
+###
+
+PUT http://localhost:3001/videos/b7756e16-85a0-4d1e-a63c-1c624f44da83
+Content-Type: application/json
+
+{
+    "title": "Esse cara também é node",
+    "description": "Descrição deste vídeo alterada 265",
+    "duration": 1800
+}
+
+###
+
+DELETE http://localhost:3001/videos/f700efbc-0a03-453c-93c0-ff2495519ed6
